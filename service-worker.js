@@ -1,4 +1,4 @@
-var cacheName = 'afterschool-v1',
+var cacheName = 'afterschool-v1';
 var cacheFiles = [
     'index.html',
     'afterschool.webmanifest',
@@ -27,6 +27,7 @@ self.addEventListener('install', (e) => {
 
 
 self.addEventListener('fetch', function (e) {
+    console.log('[service Worker] Fetched resource ' + e.request.url);
     e.respondWith(
         caches.match(e.request).then(function (r) {
             // Download the file if it is not in the cache, 
