@@ -4,7 +4,7 @@
     "description":  "A learning platform for students after their day study",
     "icons": [
         {
-            "src": "images/f.png",
+            "src": "images/slack.png",
             "sizes": "512*512",
             "type": "image/png"
         }
