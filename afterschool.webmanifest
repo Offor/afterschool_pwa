@@ -1,0 +1,16 @@
+{
+    "name": "After School Class",
+    "short_name": "After School",
+    "description":  "A learning platform for students after their day study",
+    "icons": [
+        {
+            "src": "images/f.png",
+            "sizes": "512*512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#ffffff"
+
+}
